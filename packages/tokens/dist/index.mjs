@@ -15,10 +15,14 @@ var colors = {
   green100: "#466876",
   green300: "#1b444b",
   green500: "#091d1e",
-  pink100: "#cc5669",
-  pink200: "#8f4856",
-  pink300: "#71434d",
-  pink700: "#ff0078"
+  rose100: "#cc5669",
+  rose200: "#8f4856",
+  rose300: "#71434d",
+  magenta300: "#A63F8A",
+  magenta500: "#732959",
+  magenta600: "#401C33",
+  pink500: "#ff0078",
+  pink700: "#9d014a"
 };
 
 // src/space.ts

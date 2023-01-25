@@ -14,9 +14,13 @@ declare const colors: {
     green100: string;
     green300: string;
     green500: string;
-    pink100: string;
-    pink200: string;
-    pink300: string;
+    rose100: string;
+    rose200: string;
+    rose300: string;
+    magenta300: string;
+    magenta500: string;
+    magenta600: string;
+    pink500: string;
     pink700: string;
 };
 
