@@ -26,9 +26,10 @@
   },
   "dependencies": {
     "@rocket-ui/eslint-config": "*",
-    "@rocket-ui/ts-config": "*",
     "@rocket-ui/react": "*",
     "@rocket-ui/tokens": "*",
+    "@rocket-ui/ts-config": "*",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

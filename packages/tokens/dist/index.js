@@ -43,6 +43,7 @@ var colors = {
   gray800: "#202024",
   gray900: "#121214",
   green100: "#466876",
+  green200: "#28636e",
   green300: "#1b444b",
   green500: "#091d1e",
   rose100: "#cc5669",
