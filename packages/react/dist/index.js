@@ -92,8 +92,7 @@ var colors = {
   rose500: "#c74245",
   rose700: "#912f32",
   pink500: "#ff0078",
-  pink700: "#9d014a",
-  test: "#FFF"
+  pink700: "#9d014a"
 };
 var space = {
   1: "0.25rem",

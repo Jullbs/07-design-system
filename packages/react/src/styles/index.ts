@@ -7,7 +7,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@rocket-ui/tokens'
+} from '@julbs-rocket-ui/tokens'
 
 export const {
   styled,

@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, TextArea, TextAreaProps } from '@rocket-ui/react'
+import { Box, Text, TextArea, TextAreaProps } from '@julbs-rocket-ui/react'
 
 export default {
   title: 'Form/Text Area',

@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Avatar, AvatarProps } from '@rocket-ui/react'
+import { Avatar, AvatarProps } from '@julbs-rocket-ui/react'
 
 export default {
   title: 'Data display/Avatar',

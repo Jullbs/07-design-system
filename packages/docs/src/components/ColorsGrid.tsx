@@ -1,4 +1,4 @@
-import { colors } from '@rocket-ui/tokens'
+import { colors } from '@julbs-rocket-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

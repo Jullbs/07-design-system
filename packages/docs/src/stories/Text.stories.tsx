@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Text, TextProps } from '@rocket-ui/react'
+import { Text, TextProps } from '@julbs-rocket-ui/react'
 
 export default {
   title: 'Typography/Text',

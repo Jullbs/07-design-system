@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, Checkbox, CheckboxProps } from '@rocket-ui/react'
+import { Box, Text, Checkbox, CheckboxProps } from '@julbs-rocket-ui/react'
 
 export default {
   title: 'Form/Checkbox',

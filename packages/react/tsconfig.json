@@ -1,4 +1,4 @@
 {
-  "extends": "@rocket-ui/ts-config/react.json",
+  "extends": "@julbs-rocket-ui/ts-config/react.json",
   "include": ["src"]
 }
