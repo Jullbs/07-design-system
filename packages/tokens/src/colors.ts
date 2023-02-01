@@ -24,4 +24,6 @@ export const colors = {
 
   pink500: '#ff0078',
   pink700: '#9d014a',
+
+  test: '#FFF',
 }
