@@ -20,6 +20,7 @@ declare const colors: {
     rose700: string;
     pink500: string;
     pink700: string;
+    test: string;
 };
 
 declare const space: {

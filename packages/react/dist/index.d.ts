@@ -28,6 +28,7 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
         rose700: string;
         pink500: string;
         pink700: string;
+        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -244,6 +245,7 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", 
         rose700: string;
         pink500: string;
         pink700: string;
+        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -460,6 +462,7 @@ declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h
         rose700: string;
         pink500: string;
         pink700: string;
+        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -674,6 +677,7 @@ declare const AvatarImage: _stitches_react_types_styled_component.StyledComponen
         rose700: string;
         pink500: string;
         pink700: string;
+        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -895,6 +899,7 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         rose700: string;
         pink500: string;
         pink700: string;
+        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -1109,6 +1114,7 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
         rose700: string;
         pink500: string;
         pink700: string;
+        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -1328,6 +1334,7 @@ declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"
         rose700: string;
         pink500: string;
         pink700: string;
+        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -1541,6 +1548,7 @@ declare const CheckboxContainer: _stitches_react_types_styled_component.StyledCo
         rose700: string;
         pink500: string;
         pink700: string;
+        test: string;
     };
     fontSizes: {
         xxs: string;
