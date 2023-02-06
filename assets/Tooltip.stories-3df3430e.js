@@ -1,0 +1,2 @@
+import{e as r,B as o,T as e}from"./index-78668e99.js";import{j as t}from"./jsx-runtime-1becbe17.js";import"./index-43ec82a8.js";import"./es.object.get-own-property-descriptor-037fa860.js";import"./index-648f2948.js";const n={title:"Overlay/Tooltip",component:r,args:{text:"Insert Tooltip text here"},argTypes:{children:{control:{type:null}}}},m={args:{children:t(o,{children:t(e,{children:"Display Text"})})}},c=["Primary"];export{m as Primary,c as __namedExportsOrder,n as default};
+//# sourceMappingURL=Tooltip.stories-3df3430e.js.map
