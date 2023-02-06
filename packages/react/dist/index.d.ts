@@ -1,7 +1,7 @@
 import * as _stitches_react_types_styled_component from '@stitches/react/types/styled-component';
 import * as _stitches_react_types_css_util from '@stitches/react/types/css-util';
 import * as react from 'react';
-import { ComponentProps, ElementType } from 'react';
+import { ComponentProps, ElementType, ReactNode } from 'react';
 import * as Avatar$1 from '@radix-ui/react-avatar';
 import * as Checkbox$1 from '@radix-ui/react-checkbox';
 
@@ -28,7 +28,6 @@ declare const Box: _stitches_react_types_styled_component.StyledComponent<"div",
         rose700: string;
         pink500: string;
         pink700: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -245,7 +244,6 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", 
         rose700: string;
         pink500: string;
         pink700: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -462,7 +460,6 @@ declare const Heading: _stitches_react_types_styled_component.StyledComponent<"h
         rose700: string;
         pink500: string;
         pink700: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -677,7 +674,6 @@ declare const AvatarImage: _stitches_react_types_styled_component.StyledComponen
         rose700: string;
         pink500: string;
         pink700: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -899,7 +895,6 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         rose700: string;
         pink500: string;
         pink700: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -1114,7 +1109,6 @@ declare const Input: _stitches_react_types_styled_component.StyledComponent<"inp
         rose700: string;
         pink500: string;
         pink700: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -1334,7 +1328,6 @@ declare const TextArea: _stitches_react_types_styled_component.StyledComponent<"
         rose700: string;
         pink500: string;
         pink700: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -1548,7 +1541,6 @@ declare const CheckboxContainer: _stitches_react_types_styled_component.StyledCo
         rose700: string;
         pink500: string;
         pink700: string;
-        test: string;
     };
     fontSizes: {
         xxs: string;
@@ -1753,4 +1745,23 @@ declare namespace MultiStep {
     var displayName: string;
 }
 
-export { Avatar, AvatarProps, Box, BoxProps, Button, ButtonProps, Checkbox, CheckboxProps, Heading, HeadingProps, MultiStep, MultiStepProps, Text, TextArea, TextAreaProps, TextInput, TextInputProps, TextProps };
+interface ToastProps {
+    title: string;
+    description: string;
+    duration: number;
+    open: boolean;
+    openChange: (status: boolean) => void;
+    children?: ReactNode;
+}
+declare function Toast({ title, description, duration, open, openChange, children, }: ToastProps): JSX.Element;
+declare namespace Toast {
+    var displayName: string;
+}
+
+interface TooltipProps {
+    text: string;
+    children: ReactNode;
+}
+declare function Tooltip({ text, children }: TooltipProps): JSX.Element;
+
+export { Avatar, AvatarProps, Box, BoxProps, Button, ButtonProps, Checkbox, CheckboxProps, Heading, HeadingProps, MultiStep, MultiStepProps, Text, TextArea, TextAreaProps, TextInput, TextInputProps, TextProps, Toast, ToastProps, Tooltip, TooltipProps };
